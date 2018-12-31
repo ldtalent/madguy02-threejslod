@@ -20,7 +20,7 @@ camera.position.y = 0;
 camera.position.z = -200;
 camera.lookAt( new THREE.Vector3( 0, 0, 0 ) );
 // camera.position.z = 4;
-const objs = [];
+// const objs = [];
 var loader = new THREE.ObjectLoader(); // crucial loader, loading the scene with ObjectLoader lib
 var loaders = new THREE.OBJLoader(); 
 
